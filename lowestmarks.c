@@ -25,10 +25,10 @@ int main()
 		scanf("%f",&a[i].marks);
 	}
 	gre=a[0].marks;
-	printf("\n\nAccording to highest marks = \n");
+	printf("\n\nAccording to lowest marks = \n");
 	for(i=1; i<n; i++)
 	{
-		if(gre<a[i].marks)
+		if(gre>a[i].marks)
 		{
 			gre=a[i].marks;
 		}
